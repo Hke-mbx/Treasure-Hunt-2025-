@@ -1,48 +1,47 @@
 # Treasure-Hunt-2025-
+<!DOCTYPE html>
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
   <title>⚓️🌊波澜不惊平衡赛🌊⚓️</title>
   <style>
     body {
-      font-family: "Arial", sans-serif;
-      background: #e0f7fa;
+      font-family: "Segoe UI", "Arial", sans-serif;
+      background: linear-gradient(to bottom, #d0f0ff, #ffffff);
       color: #003b4c;
-      padding: 40px;
-      line-height: 1.6;
+      margin: 0;
+      padding: 30px;
+      line-height: 1.7;
     }
     h1 {
       text-align: center;
-      font-size: 2em;
-      margin-bottom: 20px;
+      font-size: 2.4em;
+      color: #005b82;
+      margin-bottom: 30px;
     }
     h2 {
       color: #00796b;
       margin-top: 30px;
     }
-    ul {
-      list-style-type: '🌊 ';
-      padding-left: 20px;
-    }
     .section {
       background: #ffffff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 25px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       margin-bottom: 30px;
     }
-    .score-table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 10px;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
     }
-    .score-table th, .score-table td {
-      border: 1px solid #00796b;
-      padding: 10px;
+    ul li::before {
+      content: "🌊 ";
+      margin-right: 6px;
+    }
+    .emojis {
+      font-size: 1.5em;
       text-align: center;
-    }
-    .score-table th {
-      background-color: #b2dfdb;
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -72,22 +71,6 @@
       <li>乒乓球或气球掉落，该队员需回到起点重新开始。</li>
       <li>如乒乓球在传递区掉落，可捡起并继续放回汤匙上传递，无需重来。</li>
     </ul>
-  </div>
-
-  <div class="section">
-    <h2>🏆 得分机制</h2>
-    <table class="score-table">
-      <tr>
-        <th>完成时间</th>
-        <th>得分</th>
-      </tr>
-      <tr><td>1 分钟内完成</td><td>5 分</td></tr>
-      <tr><td>2 分钟内完成</td><td>4 分</td></tr>
-      <tr><td>3 分钟内完成</td><td>3 分</td></tr>
-      <tr><td>4 分钟内完成</td><td>2 分</td></tr>
-      <tr><td>5 分钟内完成</td><td>1 分</td></tr>
-      <tr><td>超过 5 分钟</td><td>0 分</td></tr>
-    </table>
   </div>
 
 </body>
